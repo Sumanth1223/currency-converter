@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency converter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Currency Converter</h1>
+        <div class="header">
+            <label for="amt" class="amt">Enter Amount</label><br>
+            <input type="text" id="amt">
+        </div>
+        <div class="country-selection">
+            <div class="from-country">
+                <label for="from_country" class="title1">From </label>
+                <br>
+                <img src="https://flagsapi.com/IN/flat/64.png" alt="loading.." id="map">
+                <select id="from_country" name="from-country" class="drop">
+                    <option value="INR" selected=true>IN</option>
+                </select>
+            </div>
+            <img id="arrow" src="arrows.png" alt="">
+            <div class="to-country">
+                <label for="to_country" class="title1">To  </label>
+                <br>
+                <img src="https://flagsapi.com/US/flat/64.png" alt="loading.." id="map">
+                <select id="to_country" name="to-country" class="drop">
+                    <option value="USD" selected=true>USD</option>
+                </select>
+            </div>
+            <br>
+        </div>
+            <button>Get Value</button>
+            <br>
+            <div class="message">
+                <h4 class="title1">Value Is</h4>
+                <p></p>
+            </div>
+    </div>
+<script src="code.js" ></script>
+<script src="script.js" ></script>
+</body>
+</html>

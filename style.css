@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-left: 40%;
+    background-color: #4942E4;
+}
+.title{
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.title1{
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.container{
+    display: space;
+    text-align: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px; 
+    height: 650px;
+    width: 500px;
+    background-color: white;
+}
+.header{
+    margin-top: 40px;
+}
+.amt{
+    margin-right: 275px;
+    font-size: 25px;
+}
+#amt{
+    width: 410px;
+    height: 60px;
+    margin: 15px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 23px;
+}
+.country-selection{
+    margin-top: 1rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 50px;
+}
+#map{
+    height: 90px;
+}
+.drop{
+    height: 25px;
+    width: 82px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+#arrow{
+    height: 1.5rem;
+    width: 2rem;
+}
+.country-selection img{
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+    background-color: antiquewhite;
+    padding: 0.5rem;
+    margin:0 0 1rem 0;
+}
+img{
+    align-items: center;
+}
+button{
+    margin: 35px;
+    font-size: 22px;
+    background-color: #4942E4;
+    border: 3px solid aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+    width: 430px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.message{
+    margin: 1rem 0 1rem 0;
+    font-size: 30px;
+}
